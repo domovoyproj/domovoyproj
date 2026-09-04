@@ -216,11 +216,18 @@ Gemini 2.0 Flash · Oh My Pi · Claude
 
 <div align="center">
 
-### 📊 GitHub Stats
+### 📊 GitHub Activity
 
-![](https://github-readme-stats.vercel.app/api?username=domovoyproj&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=domovoyproj&theme=dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=1F6FEB&currStreakLabel=C9D1D9" alt="GitHub Streak" />
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=domovoyproj&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&count_private=true&langs_count=6)
+<br><br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=domovoyproj&theme=github_dark" alt="Profile Summary" />
+
+<br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=domovoyproj&theme=github_dark" alt="Top Languages by Repo" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=domovoyproj&theme=github_dark" alt="Top Languages by Commit" />
 
 </div>
 
