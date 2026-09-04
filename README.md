@@ -49,6 +49,56 @@
 
 ---
 
+### ⚡ EPP Suite (Rust) 🔒
+
+> Высокопроизводительные системные утилиты для работы с большими данными
+
+<table>
+<tr>
+<td width="33%">
+
+#### epp-api
+Платформа лицензирования
+
+- HWID-привязка
+- Биллинг
+- Дистрибуция релизов
+- Защищённый лаунчер
+
+`Actix-Web` `SQLite`
+
+</td>
+<td width="33%">
+
+#### Xenos
+Процессор баз данных
+
+- **3.5M+ строк/сек**
+- Дедупликация
+- Нормализация
+- Фиксированный RAM
+
+`Rayon` `memmap2`
+
+</td>
+<td width="33%">
+
+#### MCK
+Проверка почты
+
+- IMAP/POP3/SMTP
+- Автоопределение серверов
+- Многопоточность
+- Поиск писем
+
+`Tokio` `WebView2`
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 📱 Helper (персональная PWA-экосистема)
 
 <table>
@@ -77,6 +127,41 @@
 - TinyURL интеграция
 
 `Static` `CDN`
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+#### helper-backup 🔒
+Приватное облако для бэкапов Helper
+
+- Сквозное AES-256 шифрование на клиенте
+- Zero-knowledge архитектура
+
+`GitHub Storage` `CryptoJS`
+
+</td>
+</tr>
+</table>
+
+---
+
+### 💰 Финтех
+
+<table>
+<tr>
+<td>
+
+#### KYD (Kill Your Debt) 🔒
+Трекер долгов и финансовых целей
+
+- Учёт взаиморасчётов
+- Планирование погашения
+- Визуализация прогресса
+- Напоминания и дедлайны
+
+`TypeScript` `PWA`
 
 </td>
 </tr>
@@ -133,8 +218,16 @@ Gemini 2.0 Flash · Oh My Pi · Claude
 
 ### 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=domovoyproj&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9)
+![](https://github-readme-stats.vercel.app/api?username=domovoyproj&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=domovoyproj&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=domovoyproj&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&count_private=true&langs_count=6)
+
+</div>
+
+---
+
+<div align="center">
+
+🔒 — приватный репозиторий
 
 </div>
