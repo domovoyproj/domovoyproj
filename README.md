@@ -2,8 +2,8 @@
 
 # 👋 Привет, я domovoyproj
 
-**Rust** · **TypeScript** · **Python**  
-Делаю утилиты для работы с данными, AI-инструменты и персональные веб-приложения
+**Rust** · **TypeScript** · **Python** · **Bun**  
+Разрабатываю утилиты для работы с данными, интерактивные веб-карты, AI-инструменты и персональные PWA-экосистемы
 
 [![GitHub followers](https://img.shields.io/github/followers/domovoyproj?style=flat-square&logo=github)](https://github.com/domovoyproj)
 [![Total Stars](https://img.shields.io/github/stars/domovoyproj?style=flat-square&logo=github)](https://github.com/domovoyproj?tab=repositories)
@@ -13,6 +13,28 @@
 ---
 
 ## 🚀 Проекты
+
+### 🗺️ Карты & Веб-приложения
+
+<table>
+<tr>
+<td>
+
+#### know-your-russia 🔒
+Интерактивная карта России
+
+- Загрузка пользовательских медиа (фото/видео) с геолокацией
+- Инструменты модерации контента
+- Хранение данных на SQLite + локальный кэш
+- Современный интерактивный интерфейс
+
+`Bun` `SQLite` `Leaflet` `JavaScript`
+
+</td>
+</tr>
+</table>
+
+---
 
 ### 🤖 AI & Инструменты
 
@@ -110,9 +132,8 @@
 
 - Калории и БЖУ по фото (Gemini AI)
 - Менеджер паролей (AES-256, TOTP)
-- Бюджет и долги
-- График смен, трекер веса
-- Работает оффлайн
+- Бюджет и долги, трекер веса
+- График смен, оффлайн-режим (SW)
 
 `PWA` `Vanilla JS` `CryptoJS`
 
@@ -147,21 +168,31 @@
 
 ---
 
-### 💰 Финтех
+### 💰 Финтех & Утилиты
 
 <table>
 <tr>
-<td>
+<td width="50%">
 
 #### KYD (Kill Your Debt) 🔒
-Трекер долгов и финансовых целей
+Трекер долгов и целей
 
 - Учёт взаиморасчётов
 - Планирование погашения
-- Визуализация прогресса
-- Напоминания и дедлайны
+- Сальдо и аналитика
 
 `TypeScript` `PWA`
+
+</td>
+<td width="50%">
+
+#### suvc 🔒
+Система управления
+
+- Внутренние бизнес-процессы
+- Автоматизация задач
+
+`HTML` `JavaScript`
 
 </td>
 </tr>
@@ -198,11 +229,11 @@
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 **Фреймворки & Runtime**  
-Tokio · Actix-Web · Tauri · Bun · FastAPI
+Tokio · Actix-Web · Tauri · Bun · FastAPI · Leaflet
 
 **Базы & Хранение**  
 SQLite · CryptoJS (AES-256) · GitHub CDN
