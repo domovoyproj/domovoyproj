@@ -1,85 +1,31 @@
-<div align="center">
+# Привет, я domovoyproj
 
-# 👋 Привет, я domovoyproj
+Пишу утилиты и сервисы соло — там, где важна скорость, на Rust, там, где не критично, на TypeScript или JS. Часто из одной задачи получается несколько репозиториев вместо одного монолита: у карты — отдельный репозиторий с бэкапом, у личного приложения — отдельное хранилище файлов и т.д.
 
-[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)]()
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)]()
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)]()
+## Проекты
 
-<p align="center">
-  <b>Разрабатываю высокопроизводительные утилиты, интерактивные веб-сервисы, AI-агенты и автономные PWA.</b>
-</p>
+**EPP** — набор Rust-инструментов для обработки данных и почты на общей платформе лицензирования:
+- [xenos](https://github.com/domovoyproj/xenos) 🔒 — потоковая сортировка, дедупликация и фильтрация больших текстовых баз (до 3.5 млн строк/сек на mmap + Rayon), 8 режимов работы, интерфейс на WebView2.
+- [epp-api](https://github.com/domovoyproj/epp-api) 🔒 — сервер лицензирования и биллинга для xenos и mck: авторизация, привязка по HWID, раздача обновлений (Actix-Web, SQLite WAL).
+- [mck](https://github.com/domovoyproj/mck) 🔒 — многопоточный чекер почтовых аккаунтов по IMAP/POP3/SMTP с автоопределением серверов и поиском писем по заданным правилам (Tokio, WebView2).
 
-[![GitHub followers](https://img.shields.io/github/followers/domovoyproj?style=flat-square&color=58a6ff&labelColor=0d1117&logo=github)](https://github.com/domovoyproj)
-[![Total Stars](https://img.shields.io/github/stars/domovoyproj?style=flat-square&color=58a6ff&labelColor=0d1117&logo=github)](https://github.com/domovoyproj?tab=repositories)
-[![Profile Views](https://komarev.com/ghpvc/?username=domovoyproj&style=flat-square&color=1f6feb&labelColor=0d1117)]()
+**Helper** — личное PWA-приложение и его вспомогательные репозитории:
+- [helper-app](https://github.com/domovoyproj/helper-app) — трекер питания по фото через Gemini, учёт воды, шагов и настроения, календарь смен, бюджет и долги, менеджер паролей с TOTP, зашифрованный бэкап в облако.
+- [helper-files](https://github.com/domovoyproj/helper-files) — публичное файловое хранилище для helper-app с короткими ссылками через TinyURL.
+- [helper-backup](https://github.com/domovoyproj/helper-backup) 🔒 — приватное хранилище зашифрованных бэкапов helper-app (AES-256, zero-knowledge).
 
-</div>
+Остальное:
+- [know-your-russia](https://github.com/domovoyproj/know-your-russia) 🔒 — интерактивная карта России с пользовательскими фото и модерацией; работает как сайт, PWA и Android-приложение (Bun, SQLite, Leaflet).
+- [momp](https://github.com/domovoyproj/momp) — веб- и десктоп-клиент для Oh My Pi: русская локализация, мониторинг лимитов моделей, файловый менеджер поверх агентских сессий (Next.js, Tauri, Bun).
+- [kyd](https://github.com/domovoyproj/kyd) 🔒 — трекер личных долгов с пятью стратегиями погашения (снежный ком, лавина и другие), симулятором сценариев и публичными профилями прогресса (Next.js, Prisma, PostgreSQL).
+- [avito-parser](https://github.com/domovoyproj/avito-parser) — мониторинг объявлений Авито с оценкой выгодности лотов через LLM, веб-панелью и Telegram-ботом (FastAPI, Playwright).
+- [suvc](https://github.com/domovoyproj/suvc) 🔒 — внутренняя система диспетчеризации для сети велопроката: аренда, акты приёма-передачи, инвентаризация, телематика, голосовые объявления (Bun, SQLite).
+- [github-ru](https://github.com/domovoyproj/github-ru) — расширение для браузера, русифицирующее интерфейс GitHub и добавляющее пару удобных кнопок в шапку репозитория.
 
----
+## Технологии
 
-## ⚡ Избранные проекты
+Rust, TypeScript, Python, JavaScript, Bun, Next.js, Tauri, Actix-Web, Tokio, FastAPI, SQLite, PostgreSQL, Docker.
 
-### 🗺️ Интерактивные системы & Карты
-- **[know-your-russia 🔒](https://github.com/domovoyproj/know-your-russia)** — интерактивная карта России с загрузкой пользовательских фото/видео, модерацией и локальной базой на SQLite + Leaflet (`Bun`, `TypeScript`, `SQLite`).
-
-### 🤖 AI & Инструменты разработчика
-- **[momp](https://github.com/domovoyproj/momp)** — продвинутый веб и десктоп клиент для Oh My Pi (omp-web): русская локализация, мониторинг лимитов моделей в реальном времени, файловый менеджер (`Next.js`, `Tauri`, `Bun`).
-- **[github-ru (RuHub)](https://github.com/domovoyproj/github-ru)** — расширение для браузеров (Manifest V3) с качественной русификацией интерфейса GitHub, защитой кодовых блоков и быстрыми кнопками (`JavaScript`).
-
-### ⚡ EPP Suite (Высоконагруженный Rust) 🔒
-- **Xenos** — потоковый процессор баз данных: дедупликация и нормализация на скоростях **3.5M+ строк/сек** (~150 МБ/сек) с фиксированным потреблением RAM (`Rayon`, `memmap2`).
-- **epp-api** — центральная платформа экосистемы: сервер лицензирования, HWID-привязка, биллинг и лаунчер (`Actix-Web`, `SQLite`).
-- **MCK** — многопоточный комбайн проверки почтовых аккаунтов (IMAP/POP3/SMTP) с автоопределением серверов (`Tokio`, `WebView2`).
-
-### 📱 Helper (Персональная PWA-экосистема)
-- **[helper-app](https://github.com/domovoyproj/helper-app)** — автономный мобильный помощник: трекер калорий и БЖУ по фото (Gemini AI), менеджер паролей с AES-256/TOTP, бюджет, долги, трекер веса, оффлайн-режим через Service Worker (`Vanilla JS`, `CryptoJS`, `PWA`).
-- **helper-backup 🔒** — клиентское сквозное шифрование и бэкап данных в облако (`AES-256`, `Zero-Knowledge`).
-- **[helper-files](https://github.com/domovoyproj/helper-files)** — быстрый файлообменник через GitHub CDN с интеграцией TinyURL.
-
-### 💰 Финтех & Утилиты
-- **KYD (Kill Your Debt) 🔒** — персональный трекер долговых обязательств и финансовых целей (`TypeScript`, `PWA`).
-- **suvc 🔒** — система управления внутренними бизнес-процессами (`HTML`, `JavaScript`).
-
-### 🔍 Автоматизация & Парсинг
-- **[avito-parser](https://github.com/domovoyproj/avito-parser)** — автономный комбайн мониторинга с нейросетевым скорингом выгодности сделок (AI Deal Scoring), веб-панелью и Telegram-уведомлениями (`FastAPI`, `Playwright`, `Docker`).
-
----
-
-## 🛠 Технологический стек
-
-| Категория | Технологии |
-| :--- | :--- |
-| **Языки** | `Rust`, `TypeScript`, `Python`, `JavaScript`, `HTML/CSS` |
-| **Runtime & Фреймворки** | `Bun`, `Node.js`, `Next.js`, `Tauri v2`, `Actix-Web`, `Tokio`, `FastAPI` |
-| **Базы данных & Хранение** | `SQLite WAL`, `memmap2`, `CryptoJS (AES-256)`, `GitHub CDN` |
-| **Инфраструктура & AI** | `Docker`, `GitHub Actions`, `Nginx`, `Gemini 2.0 Flash`, `Leaflet` |
-
----
-
-<div align="center">
-
-### 📊 GitHub Activity & Stats
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=domovoyproj&theme=dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=1F6FEB&currStreakLabel=C9D1D9" alt="GitHub Streak" />
-
-<br><br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=domovoyproj&theme=github_dark" alt="Profile Summary" />
-
-<br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=domovoyproj&theme=github_dark" alt="Top Languages by Repo" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=domovoyproj&theme=github_dark" alt="Top Languages by Commit" />
-
-</div>
-
----
-
-<div align="center">
-
-🔒 — *приватный репозиторий*
-
-</div>
+🔒 — приватный репозиторий
+</content>
+<parameter name="i">Rewrite profile README
