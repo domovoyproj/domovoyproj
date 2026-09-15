@@ -17,7 +17,7 @@
 ## ⚡ Избранные проекты
 
 ### 🗺️ Интерактивные системы & Карты
-- **[know-your-russia 🔒](https://github.com/domovoyproj/know-your-russia)** — интерактивная карта России с загрузкой пользовательских фото/видео, модерацией и локальной базой на SQLite + Leaflet (`Bun`, `TypeScript`, `SQLite`).
+- **[know-your-russia](https://github.com/domovoyproj/know-your-russia)** — интерактивная карта России с загрузкой пользовательских фото/видео, модерацией и локальной базой на SQLite + Leaflet (`Bun`, `TypeScript`, `SQLite`).
 
 ### 🤖 AI & Инструменты разработчика
 - **[momp](https://github.com/domovoyproj/momp)** — продвинутый веб и десктоп клиент для Oh My Pi (omp-web): русская локализация, мониторинг лимитов моделей в реальном времени, файловый менеджер (`Next.js`, `Tauri`, `Bun`).
