@@ -17,11 +17,11 @@
 ## ⚡ Избранные проекты
 
 ### 🗺️ Интерактивные системы & Карты
-- **[know-your-russia](https://github.com/domovoyproj/know-your-russia)** — интерактивная карта России с загрузкой пользовательских фото/видео, модерацией и локальной базой на SQLite + Leaflet (`Bun`, `TypeScript`, `SQLite`).
+- **[know-your-russia](https://github.com/domovoyproj/know-your-russia)** — интерактивная народная фотолетопись и векторный гео-атлас 89 субъектов РФ с премодерацией, тепловой картограммой, PWA (офлайн-кэш) и нативным Android APK (`Bun`, `SQLite WAL`, `Leaflet`, `PWA`, `Android APK`).
 
 ### 🤖 AI & Инструменты разработчика
-- **[momp](https://github.com/domovoyproj/momp)** — продвинутый веб и десктоп клиент для Oh My Pi (omp-web): русская локализация, мониторинг лимитов моделей в реальном времени, файловый менеджер (`Next.js`, `Tauri`, `Bun`).
-- **[github-ru (RuHub)](https://github.com/domovoyproj/github-ru)** — расширение для браузеров (Manifest V3) с качественной русификацией интерфейса GitHub, защитой кодовых блоков и быстрыми кнопками (`JavaScript`).
+- **[momp](https://github.com/domovoyproj/momp)** — современный веб и десктоп клиент для Oh My Pi (omp-web): ветвление сессий (fork), матрица ролей моделей, мониторинг квот и лимитов в реальном времени, файловый менеджер и мультиязычность (`Next.js 14`, `Tauri v2`, `Bun`, `TypeScript`).
+- **[github-ru (RuHub)](https://github.com/domovoyproj/github-ru)** — браузерное расширение (Manifest V3) для контекстной русификации интерфейса GitHub с защитой пользовательского кода, поддержкой Turbo/pjax и быстрыми кнопками VS Code / ZIP (`Vanilla JS`, `Manifest V3`).
 
 ### ⚡ EPP Suite (Высоконагруженный Rust) 🔒
 - **Xenos** — потоковый процессор баз данных: дедупликация и нормализация на скоростях **3.5M+ строк/сек** (~150 МБ/сек) с фиксированным потреблением RAM (`Rayon`, `memmap2`).
@@ -29,16 +29,16 @@
 - **MCK** — многопоточный комбайн проверки почтовых аккаунтов (IMAP/POP3/SMTP) с автоопределением серверов (`Tokio`, `WebView2`).
 
 ### 📱 Helper (Персональная PWA-экосистема)
-- **[helper-app](https://github.com/domovoyproj/helper-app)** — автономный мобильный помощник: трекер калорий и БЖУ по фото (Gemini AI), менеджер паролей с AES-256/TOTP, бюджет, долги, трекер веса, оффлайн-режим через Service Worker (`Vanilla JS`, `CryptoJS`, `PWA`).
-- **helper-backup 🔒** — клиентское сквозное шифрование и бэкап данных в облако (`AES-256`, `Zero-Knowledge`).
-- **[helper-files](https://github.com/domovoyproj/helper-files)** — быстрый файлообменник через GitHub CDN с интеграцией TinyURL.
+- **[helper-app](https://github.com/domovoyproj/helper-app)** — автономный мобильный помощник Helper 2.0: трекер питания и БЖУ по фото (Gemini AI), менеджер паролей с локальным AES-256 и TOTP 2FA, расчёт смен и зарплаты, бюджет, взаимные долги, интеграция с KYD и офлайн-режим (`Vanilla JS`, `CryptoJS`, `PWA`, `Gemini AI`).
+- **helper-backup 🔒** — клиентское сквозное шифрование и резервное копирование данных в приватный облачный репозиторий (`AES-256`, `Zero-Knowledge`).
+- **[helper-files](https://github.com/domovoyproj/helper-files)** — бессерверное файловое хранилище и CDN вложений через GitHub Contents API с интеграцией TinyURL (`GitHub API`, `TinyURL`).
 
 ### 💰 Финтех & Утилиты
-- **KYD (Kill Your Debt) 🔒** — персональный трекер долговых обязательств и финансовых целей (`TypeScript`, `PWA`).
-- **suvc 🔒** — система управления внутренними бизнес-процессами (`HTML`, `JavaScript`).
+- **KYD (Kill Your Debt) 🔒** — персональный трекер долговых обязательств, симулятор погашения и финансовых прогнозов (`TypeScript`, `Next.js`, `PWA`).
+- **suvc 🔒** — система управления внутренними процессами и регламентами (`HTML`, `JavaScript`).
 
 ### 🔍 Автоматизация & Парсинг
-- **[avito-parser](https://github.com/domovoyproj/avito-parser)** — автономный комбайн мониторинга с нейросетевым скорингом выгодности сделок (AI Deal Scoring), веб-панелью и Telegram-уведомлениями (`FastAPI`, `Playwright`, `Docker`).
+- **[avito-parser](https://github.com/domovoyproj/avito-parser)** — автономный комбайн мониторинга с гибридным сбором (`curl_cffi` + `Playwright`), математическим скорингом сделок (0–100), LLM-вердиктом, интерактивным дашбордом с живыми логами по WebSocket и Telegram-ботом (`FastAPI`, `Playwright`, `curl_cffi`, `aiogram 3`, `SQLite WAL`, `Docker Compose`).
 
 ---
 
