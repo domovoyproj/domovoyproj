@@ -2,7 +2,7 @@
 
 # domovoyproj
 
-### Делаю самостоятельные продукты для Windows, Web и автоматизации
+### Продукты для Windows, Web и автоматизации
 
 [![ReplayKit](https://img.shields.io/github/v/release/domovoyproj/ReplayKit?style=for-the-badge&label=ReplayKit&color=A6B6FF&logo=windows11&logoColor=21262d)](https://github.com/domovoyproj/ReplayKit/releases/latest)
 [![VWP](https://img.shields.io/badge/Featured-VWP_0.3.0-8B7CF6?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/domovoyproj/VWP/releases/latest)
@@ -36,7 +36,7 @@
 
 ## VWP · Video Wallpaper for Windows
 
-**Полноценное приложение живых обоев для Windows** с современным WPF-интерфейсом, интерактивными слоями, параллаксом, реакцией на системный звук и собственной галереей сцен.
+**Полноценное приложение живых обоев для Windows** с современным интерфейсом, интерактивными слоями, реакцией на системный звук и собственной галереей сцен.
 
 <a href="https://github.com/domovoyproj/VWP">
   <img src="https://raw.githubusercontent.com/domovoyproj/VWP/main/docs/dark-launcher.png" alt="VWP launcher" width="100%" />
@@ -61,7 +61,7 @@
 
 | Проект | Что внутри | Стек |
 |---|---|---|
-| [avito-parser](https://github.com/domovoyproj/avito-parser) | Мониторинг объявлений, скоринг сделок, LLM-оценка, live-панель и Telegram-бот | Python, FastAPI, Playwright, SQLite |
+| [avito-parser](https://github.com/domovoyproj/avito-parser) | Мониторинг объявлений, скоринг сделок, панель и Telegram-бот | Python, FastAPI, Playwright, SQLite |
 | [momp](https://github.com/domovoyproj/momp) | Web и desktop-клиент для Oh My Pi: сессии, модели, квоты и файловый менеджер | TypeScript, Next.js, Tauri, Bun |
 | [know-your-russia](https://github.com/domovoyproj/know-your-russia) | Интерактивная карта России с пользовательскими фото, модерацией и offline PWA | JavaScript, Bun, SQLite, Leaflet |
 | [helper-app](https://github.com/domovoyproj/helper-app) | Персональная PWA: питание, сон, пароли, бюджет, смены и облачный бэкап | JavaScript, PWA, Gemini AI |
@@ -75,7 +75,6 @@
 
 </div>
 
-Основной интерес — приложения, которые можно установить и использовать: продуманный интерфейс, локальная работа, автоматизация, производительность и нормальная упаковка продукта до релиза.
 
 ## Активность
 
