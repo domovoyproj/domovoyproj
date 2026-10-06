@@ -53,12 +53,12 @@
 
 Основной интерес — приложения, которые можно установить и использовать: продуманный интерфейс, локальная работа, автоматизация, производительность и нормальная упаковка продукта до релиза.
 
+## Активность
+
 <div align="center">
 
-## GitHub
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=domovoyproj&theme=github_dark" alt="GitHub activity" width="100%" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=domovoyproj&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+[![Repositories](https://img.shields.io/badge/Все_репозитории-21262D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
+[![VWP releases](https://img.shields.io/badge/Релизы_VWP-8B7CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj/VWP/releases)
+[![Contributions](https://img.shields.io/badge/История_вкладов-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj?tab=overview&from=2026-01-01&to=2026-12-31)
 
 </div>
