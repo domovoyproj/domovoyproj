@@ -4,11 +4,35 @@
 
 ### Делаю самостоятельные продукты для Windows, Web и автоматизации
 
+[![ReplayKit](https://img.shields.io/github/v/release/domovoyproj/ReplayKit?style=for-the-badge&label=ReplayKit&color=A6B6FF&logo=windows11&logoColor=21262d)](https://github.com/domovoyproj/ReplayKit/releases/latest)
 [![VWP](https://img.shields.io/badge/Featured-VWP_0.3.0-8B7CF6?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/domovoyproj/VWP/releases/latest)
 [![Followers](https://img.shields.io/github/followers/domovoyproj?style=for-the-badge&logo=github&label=followers&color=21262d)](https://github.com/domovoyproj?tab=followers)
 [![Profile views](https://komarev.com/ghpvc/?username=domovoyproj&style=for-the-badge&color=6e7681&label=views)](https://github.com/domovoyproj)
 
 </div>
+
+## ReplayKit · история экрана и запись MP4
+
+**Последняя минута экрана, редактор кадров и запись видео — в одном приложении для Windows.** Работает в трее, обрабатывает данные локально и открывает историю по `Ctrl+Shift+R`.
+
+<div align="center">
+
+[![Download ReplayKit](https://img.shields.io/badge/Скачать_ReplayKit-A6B6FF?style=for-the-badge&logo=github&logoColor=21262d)](https://github.com/domovoyproj/ReplayKit/releases/latest)
+[![ReplayKit release](https://img.shields.io/github/v/release/domovoyproj/ReplayKit?style=for-the-badge&label=release&color=21262d)](https://github.com/domovoyproj/ReplayKit/releases)
+[![Windows](https://img.shields.io/badge/Windows_10%2F11_x64-0078D4?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/domovoyproj/ReplayKit)
+[![.NET](https://img.shields.io/badge/.NET_8_·_WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/domovoyproj/ReplayKit)
+
+</div>
+
+- до 60 секунд истории: полноразмерный JPEG раз в секунду, буфер только в RAM
+- замороженный таймлайн, превью и выбор нужного момента без сдвига истории
+- встроенный редактор: перо, стрелки, текст, обрезка, скрытие данных, отмена и повтор
+- копирование кадра в буфер обмена и сохранение PNG с правками
+- запись выбранного монитора: старт/стоп, MP4/H.264, целевые 30 кадров/с, без звука
+- светлая, тёмная и системная темы, глобальные клавиши, автозапуск и выбор монитора
+- установщик без прав администратора и portable-сборка со встроенным .NET
+
+Скриншоты не записываются на диск до команды «Сохранить». Видеозапись начинается после выбора файла; кодирование выполняет Windows, без FFmpeg и сетевых сервисов.
 
 ## VWP · Video Wallpaper for Windows
 
@@ -64,6 +88,7 @@
 <br><br>
 
 [![Repositories](https://img.shields.io/badge/Все_репозитории-21262D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
+[![ReplayKit releases](https://img.shields.io/badge/Релизы_ReplayKit-A6B6FF?style=for-the-badge&logo=github&logoColor=21262d)](https://github.com/domovoyproj/ReplayKit/releases)
 [![VWP releases](https://img.shields.io/badge/Релизы_VWP-8B7CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj/VWP/releases)
 [![Contributions](https://img.shields.io/badge/История_вкладов-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj?tab=overview&from=2026-01-01&to=2026-12-31)
 
