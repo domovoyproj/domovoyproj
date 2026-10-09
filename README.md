@@ -2,93 +2,173 @@
 
 # domovoyproj
 
-### Продукты для Windows, Web и автоматизации
+Приложения для Windows и веба: локальные инструменты, аккуратные интерфейсы и автоматизация.
 
-[![ReplayKit](https://img.shields.io/github/v/release/domovoyproj/ReplayKit?style=for-the-badge&label=ReplayKit&color=A6B6FF&logo=windows11&logoColor=21262d)](https://github.com/domovoyproj/ReplayKit/releases/latest)
-[![VWP](https://img.shields.io/badge/Featured-VWP_0.3.0-8B7CF6?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/domovoyproj/VWP/releases/latest)
-[![Followers](https://img.shields.io/github/followers/domovoyproj?style=for-the-badge&logo=github&label=followers&color=21262d)](https://github.com/domovoyproj?tab=followers)
-[![Profile views](https://komarev.com/ghpvc/?username=domovoyproj&style=for-the-badge&color=6e7681&label=views)](https://github.com/domovoyproj)
-
-</div>
-
-## ReplayKit · история экрана и запись MP4
-
-**Последняя минута экрана, редактор кадров и запись видео — в одном приложении для Windows.** Работает в трее, обрабатывает данные локально и открывает историю по `Ctrl+Shift+R`.
-
-<div align="center">
-
-[![Download ReplayKit](https://img.shields.io/badge/Скачать_ReplayKit-A6B6FF?style=for-the-badge&logo=github&logoColor=21262d)](https://github.com/domovoyproj/ReplayKit/releases/latest)
-[![ReplayKit release](https://img.shields.io/github/v/release/domovoyproj/ReplayKit?style=for-the-badge&label=release&color=21262d)](https://github.com/domovoyproj/ReplayKit/releases)
-[![Windows](https://img.shields.io/badge/Windows_10%2F11_x64-0078D4?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/domovoyproj/ReplayKit)
-[![.NET](https://img.shields.io/badge/.NET_8_·_WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/domovoyproj/ReplayKit)
+[![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows11&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
+[![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
+[![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
 
 </div>
 
-- до 60 секунд истории: полноразмерный JPEG раз в секунду, буфер только в RAM
-- замороженный таймлайн, превью и выбор нужного момента без сдвига истории
-- встроенный редактор: перо, стрелки, текст, обрезка, скрытие данных, отмена и повтор
-- копирование кадра в буфер обмена и сохранение PNG с правками
-- запись выбранного монитора: старт/стоп, MP4/H.264, целевые 30 кадров/с, без звука
-- светлая, тёмная и системная темы, глобальные клавиши, автозапуск и выбор монитора
-- установщик без прав администратора и portable-сборка со встроенным .NET
+## Проекты
 
-Скриншоты не записываются на диск до команды «Сохранить». Видеозапись начинается после выбора файла; кодирование выполняет Windows, без FFmpeg и сетевых сервисов.
+<details>
+<summary><b>ReplayKit</b> — история экрана и запись видео для Windows</summary>
 
-## VWP · Video Wallpaper for Windows
+<br>
 
-**Полноценное приложение живых обоев для Windows** с современным интерфейсом, интерактивными слоями, реакцией на системный звук и собственной галереей сцен.
-
-<a href="https://github.com/domovoyproj/VWP">
-  <img src="https://raw.githubusercontent.com/domovoyproj/VWP/main/docs/dark-launcher.png" alt="VWP launcher" width="100%" />
+<a href="https://github.com/domovoyproj/ReplayKit">
+  <img src="assets/replaykit-history.png" alt="ReplayKit" width="100%">
 </a>
 
+Последние секунды экрана в оперативной памяти, быстрый таймлайн, редактор кадров, локальный OCR, видеобуфер и запись MP4 с системным звуком и микрофоном.
+
+`C#` · `.NET 8` · `WPF` · `DXGI` · `Media Foundation`
+
+[Репозиторий](https://github.com/domovoyproj/ReplayKit) · [Скачать](https://github.com/domovoyproj/ReplayKit/releases/latest)
+
+</details>
+
+<details>
+<summary><b>PhotoSort</b> — локальная сортировка фото и видео</summary>
+
+<br>
+
+<a href="https://github.com/domovoyproj/PhotoSort">
+  <img src="https://opengraph.githubassets.com/profile-20261009/domovoyproj/PhotoSort" alt="PhotoSort" width="100%">
+</a>
+
+Поиск точных дублей, похожих кадров и серий, сравнение файлов, безопасная корзина и продолжение разбора после перезапуска.
+
+`Rust` · `JavaScript` · `SQLite` · `Windows`
+
+[Репозиторий](https://github.com/domovoyproj/PhotoSort) · [Скачать](https://github.com/domovoyproj/PhotoSort/releases/latest)
+
+</details>
+
+<details>
+<summary><b>VWP</b> — живые обои для Windows</summary>
+
+<br>
+
+<a href="https://github.com/domovoyproj/VWP">
+  <img src="https://raw.githubusercontent.com/domovoyproj/VWP/main/docs/dark-launcher.png" alt="VWP" width="100%">
+</a>
+
+Видеообои для нескольких мониторов, плейлисты, интерактивные сцены, реакция на звук, редактор и галерея коллекций.
+
+`C#` · `.NET 8` · `WPF` · `Windows`
+
+[Репозиторий](https://github.com/domovoyproj/VWP) · [Скачать](https://github.com/domovoyproj/VWP/releases/latest)
+
+</details>
+
+<details>
+<summary><b>momp</b> — web и desktop-клиент для Oh My Pi</summary>
+
+<br>
+
+<a href="https://github.com/domovoyproj/momp">
+  <img src="https://raw.githubusercontent.com/domovoyproj/momp/main/docs/screenshots/01-sidebar-and-explorer.png" alt="momp" width="100%">
+</a>
+
+Сессии и модели, чат в реальном времени, файловый менеджер, просмотр кода, квоты и нативный desktop-клиент.
+
+`TypeScript` · `Next.js` · `Tauri` · `Bun`
+
+[Репозиторий](https://github.com/domovoyproj/momp)
+
+</details>
+
+<details>
+<summary><b>Helper</b> — персональный PWA-помощник</summary>
+
+<br>
+
+<a href="https://github.com/domovoyproj/helper-app">
+  <img src="https://raw.githubusercontent.com/domovoyproj/helper-app/main/IMG_0676.png" alt="Helper" width="100%">
+</a>
+
+Задачи, питание, сон, бюджет, рабочие смены, зашифрованный сейф паролей и резервные копии в одном устанавливаемом веб-приложении.
+
+`JavaScript` · `PWA` · `Web Crypto` · `IndexedDB`
+
+[Репозиторий](https://github.com/domovoyproj/helper-app) · [Открыть приложение](https://domovoyproj.github.io/helper-app/)
+
+</details>
+
+<details>
+<summary><b>avito-parser</b> — мониторинг и оценка объявлений</summary>
+
+<br>
+
+<a href="https://github.com/domovoyproj/avito-parser">
+  <img src="https://opengraph.githubassets.com/profile-20261009/domovoyproj/avito-parser" alt="avito-parser" width="100%">
+</a>
+
+Автономный мониторинг объявлений с фильтрами, оценкой выгодности, веб-панелью, SQLite и уведомлениями в Telegram.
+
+`Python` · `FastAPI` · `Playwright` · `SQLite`
+
+[Репозиторий](https://github.com/domovoyproj/avito-parser)
+
+</details>
+
+<details>
+<summary><b>Know Your Russia</b> — интерактивная карта России</summary>
+
+<br>
+
+<a href="https://github.com/domovoyproj/know-your-russia">
+  <img src="https://opengraph.githubassets.com/profile-20261009/domovoyproj/know-your-russia" alt="Know Your Russia" width="100%">
+</a>
+
+Карта с пользовательскими фото и видео, локальным хранением, модерацией и устанавливаемым offline-режимом.
+
+`JavaScript` · `Bun` · `SQLite` · `Leaflet` · `PWA`
+
+[Репозиторий](https://github.com/domovoyproj/know-your-russia)
+
+</details>
+
+<details>
+<summary><b>RuHub</b> — русификация GitHub</summary>
+
+<br>
+
+<a href="https://github.com/domovoyproj/github-ru">
+  <img src="https://opengraph.githubassets.com/profile-20261009/domovoyproj/github-ru" alt="RuHub" width="100%">
+</a>
+
+Браузерное расширение с переводом интерфейса GitHub и быстрыми действиями: открыть проект в VS Code Web или скачать ZIP.
+
+`JavaScript` · `Chrome Extension` · `Manifest V3`
+
+[Репозиторий](https://github.com/domovoyproj/github-ru)
+
+</details>
+
+<details>
+<summary><b>helper-files</b> — публичное файловое хранилище Helper</summary>
+
+<br>
+
+<a href="https://github.com/domovoyproj/helper-files">
+  <img src="https://opengraph.githubassets.com/profile-20261009/domovoyproj/helper-files" alt="helper-files" width="100%">
+</a>
+
+Инфраструктурный репозиторий для публичных вложений Helper: загрузка через GitHub Contents API, выдача через CDN и короткие ссылки.
+
+`GitHub API` · `GitHub CDN` · `TinyURL`
+
+[Репозиторий](https://github.com/domovoyproj/helper-files)
+
+</details>
+
 <div align="center">
 
-[![Download](https://img.shields.io/badge/Скачать_VWP_0.3.0-8B7CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj/VWP/releases/latest)
-[![Windows](https://img.shields.io/badge/Windows_10%2F11-0078D4?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/domovoyproj/VWP)
-[![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/domovoyproj/VWP)
-
-</div>
-
-- 18 встроенных сцен, свои видео и переносимые `.vwpbundle`-коллекции
-- отдельные обои, громкость, кадрирование и плейлисты для каждого монитора
-- интерактивные слои, курсорный параллакс и эффекты под системный звук
-- видеоредактор, профили производительности и автопауза в играх
-- тёмная, светлая и системная темы, мини-панель в трее
-- онлайн-галерея с публикацией коллекций через GitHub Releases
-
-## Другие проекты
-
-| Проект | Что внутри | Стек |
-|---|---|---|
-| [avito-parser](https://github.com/domovoyproj/avito-parser) | Мониторинг объявлений, скоринг сделок, панель и Telegram-бот | Python, FastAPI, Playwright, SQLite |
-| [momp](https://github.com/domovoyproj/momp) | Web и desktop-клиент для Oh My Pi: сессии, модели, квоты и файловый менеджер | TypeScript, Next.js, Tauri, Bun |
-| [know-your-russia](https://github.com/domovoyproj/know-your-russia) | Интерактивная карта России с пользовательскими фото, модерацией и offline PWA | JavaScript, Bun, SQLite, Leaflet |
-| [helper-app](https://github.com/domovoyproj/helper-app) | Персональная PWA: питание, сон, пароли, бюджет, смены и облачный бэкап | JavaScript, PWA, Gemini AI |
-| [github-ru](https://github.com/domovoyproj/github-ru) | Русификация GitHub и быстрые действия разработчика | JavaScript, Manifest V3 |
-
-## Стек
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=cs,dotnet,rust,ts,js,py,bun,nextjs,tauri,fastapi,sqlite,docker,git,github" alt="C#, .NET, Rust, TypeScript, JavaScript, Python, Bun, Next.js, Tauri, FastAPI, SQLite, Docker, Git and GitHub" />
-
-</div>
-
-
-## Активность
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=domovoyproj&theme=github_dark" alt="GitHub activity" width="100%" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=domovoyproj&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
-
-<br><br>
-
-[![Repositories](https://img.shields.io/badge/Все_репозитории-21262D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
-[![ReplayKit releases](https://img.shields.io/badge/Релизы_ReplayKit-A6B6FF?style=for-the-badge&logo=github&logoColor=21262d)](https://github.com/domovoyproj/ReplayKit/releases)
-[![VWP releases](https://img.shields.io/badge/Релизы_VWP-8B7CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj/VWP/releases)
-[![Contributions](https://img.shields.io/badge/История_вкладов-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj?tab=overview&from=2026-01-01&to=2026-12-31)
+[Все репозитории](https://github.com/domovoyproj?tab=repositories)
 
 </div>
