@@ -4,11 +4,10 @@
 
 Приложения для Windows и веба: локальные инструменты, аккуратные интерфейсы и автоматизация.
 
-[![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows11&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
-[![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
-[![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
+[![ReplayKit](https://img.shields.io/github/v/release/domovoyproj/ReplayKit?style=for-the-badge&label=ReplayKit&color=A6B6FF&logo=windows11&logoColor=21262d)](https://github.com/domovoyproj/ReplayKit/releases/latest)
+[![VWP](https://img.shields.io/github/v/release/domovoyproj/VWP?style=for-the-badge&label=VWP&color=8B7CF6&logo=windows11&logoColor=white)](https://github.com/domovoyproj/VWP/releases/latest)
+[![Followers](https://img.shields.io/github/followers/domovoyproj?style=for-the-badge&logo=github&label=followers&color=21262d)](https://github.com/domovoyproj?tab=followers)
+[![Profile views](https://komarev.com/ghpvc/?username=domovoyproj&style=for-the-badge&color=6e7681&label=views)](https://github.com/domovoyproj)
 
 </div>
 
@@ -167,8 +166,19 @@
 
 </details>
 
+## Активность
+
 <div align="center">
 
-[Все репозитории](https://github.com/domovoyproj?tab=repositories)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=domovoyproj&theme=github_dark" alt="GitHub activity" width="100%">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=domovoyproj&theme=github-dark-blue&hide_border=true" alt="GitHub streak">
+
+<br><br>
+
+[![Repositories](https://img.shields.io/badge/Все_репозитории-21262D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj?tab=repositories)
+[![ReplayKit releases](https://img.shields.io/badge/Релизы_ReplayKit-A6B6FF?style=for-the-badge&logo=github&logoColor=21262d)](https://github.com/domovoyproj/ReplayKit/releases)
+[![VWP releases](https://img.shields.io/badge/Релизы_VWP-8B7CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj/VWP/releases)
+[![Contributions](https://img.shields.io/badge/История_вкладов-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/domovoyproj?tab=overview&from=2026-01-01&to=2026-12-31)
 
 </div>
